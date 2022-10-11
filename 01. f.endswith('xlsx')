@@ -1,0 +1,4 @@
+# 폴더에 있는 파일 중 엑셀파일만 선택할 때
+
+files = os.listdir()
+files = [f for f in files if f.endswith('xlsx')]
